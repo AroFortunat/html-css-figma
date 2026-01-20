@@ -12,41 +12,45 @@
 <body>
     <header class="header">
         <!-- header__nav suit la syntaxe BEM -->
-        <nav class="header__nav"> 
+        <nav class="header__nav">
             <div class="nav__logo">
                 <img src="./asset/logo.svg" alt="Logo Prime Prompts" class="nav__logo-img">
                 <h3 class="nav__logo-title">Prime prompts</h3>
             </div>
             <div class="nav__auth">
-                <button class="nav__auth-button nav__auth-button--signin">Connexion</button> 
+                <button class="nav__auth-button nav__auth-button--signin">Connexion</button>
                 <button class="nav__auth-button nav__auth-button--signup">Essayer Primeprompts</button>
             </div>
         </nav>
     </header>
-    <main>
-        <div>
-            <div>
-                <h1>
+    <main class="main">
+        <div class="main__container">
+            <div class="main__hero">
+                <h1 class="main__hero-title">
                     Organisez vos prompts IA <br /> rapidement, efficacement.
                 </h1>
-                <p>Une application simple pour gérer et retrouver <br /> facilement vos prompts IA.</p>
-                <button>Essayer Primeprompts</button>
+                <p class="main__hero-description">Une application simple pour gérer et retrouver <br /> facilement vos
+                    prompts IA.</p>
+                <button class="main__hero-button">Essayer Primeprompts</button>
             </div>
-            <div>
-                <div>
-                    <img src="./asset/add.svg" alt="Add">
-                    <h3>Ajout de Prompts</h3>
-                    <p>Ajoutez de nouveaux prompts à votre <br /> collection en quelques clics.</p>
+            <div class="main__features">
+                <div class="main__feature main__feature--add">
+                    <img class="main__feature-icon" src="./asset/add.svg" alt="Add">
+                    <h3 class="main__feature-title">Ajout de Prompts</h3>
+                    <p class="main__feature-description">Ajoutez de nouveaux prompts à votre <br /> collection en
+                        quelques clics.</p>
                 </div>
-                <div>
-                    <img src="./asset/sort.svg" alt="Sort">
-                    <h3>Classer par Catégorie</h3>
-                    <p>Organisez les prompts en différentes <br /> catégories pour une gestion facile.</p>
+                <div class="main__feature main__feature--sort">
+                    <img class="main__feature-icon" src="./asset/sort.svg" alt="Sort">
+                    <h3 class="main__feature-title">Classer par Catégorie</h3>
+                    <p class="main__feature-description">Organisez les prompts en différentes <br /> catégories pour une
+                        gestion facile.</p>
                 </div>
-                <div>
-                    <img src="./asset/manage.svg" alt="Manage">
-                    <h3>Gérer les Prompts</h3>
-                    <p>Recherchez des prompts spécifiques, <br /> modifiez ou supprimez-les.</p>
+                <div class="main__feature main__feature--manage">
+                    <img class="main__feature-icon" src="./asset/manage.svg" alt="Manage">
+                    <h3 class="main__feature-title">Gérer les Prompts</h3>
+                    <p class="main__feature-description">Recherchez des prompts spécifiques, <br /> modifiez ou
+                        supprimez-les.</p>
                 </div>
             </div>
         </div>

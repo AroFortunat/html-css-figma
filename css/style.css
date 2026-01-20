@@ -2,7 +2,7 @@
 @import url('./global.css');
 @import url('./section/header.css');
 @import url('./section/main.css');
-
+@import url('./section/footer.css');
 :root {
     --roboto: "Roboto", sans-serif;
     --primary-color: 0, 0, 0;

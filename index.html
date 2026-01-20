@@ -10,15 +10,16 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <div>
-                <img src="./asset/logo.svg" alt="Logo Prime Prompts">
-                <h3>Prime prompts</h3>
+    <header class="header">
+        <!-- header__nav suit la syntaxe BEM -->
+        <nav class="header__nav"> 
+            <div class="nav__logo">
+                <img src="./asset/logo.svg" alt="Logo Prime Prompts" class="nav__logo-img">
+                <h3 class="nav__logo-title">Prime prompts</h3>
             </div>
-            <div>
-                <button>Connexion</button>
-                <button>Essayer Primeprompts</button>
+            <div class="nav__auth">
+                <button class="nav__auth-button nav__auth-button--signin">Connexion</button> 
+                <button class="nav__auth-button nav__auth-button--signup">Essayer Primeprompts</button>
             </div>
         </nav>
     </header>
